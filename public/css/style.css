@@ -1,0 +1,51 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body {
+    margin: 0;
+}
+
+section > div {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #114486 url('../img/Clouds_over_the_Atlantic_Ocean.jpg') center/cover no-repeat scroll;
+}
+.header > div {
+    max-width: none;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    min-height: 400px;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.header img {
+    width: 6em;
+    height: 6em;
+}
+
+section.description {
+    background-color: #e7e7e7;
+    padding: 1em;
+}
+
+section.list {
+    padding-bottom: 2em;
+    text-align: center;
+}
+section.list ul {
+    padding: 0;
+    list-style-type: none;
+}
